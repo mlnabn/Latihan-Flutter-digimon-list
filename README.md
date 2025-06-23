@@ -1,16 +1,33 @@
-# digimon_list
+# Latihan Flutter: Digimon List App 🐉
 
-A new Flutter project.
+Proyek ini merupakan latihan membuat aplikasi Flutter sederhana yang menampilkan daftar karakter Digimon menggunakan API publik.
 
-## Getting Started
+## 📱 Fitur Utama
 
-This project is a starting point for a Flutter application.
+- Menampilkan list Digimon (gambar, nama, dan level)
+- Mengambil data dari REST API: [https://digimon-api.vercel.app/api/digimon](https://digimon-api.vercel.app/api/digimon)
+- Desain responsive dan ringan
+- Dibangun menggunakan Flutter + HTTP package
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tampilan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Daftar Digimon | Detail Digimon |
+|----------------|----------------|
+| ![List](screenshots/list.png) | ![Detail](screenshots/detail.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> *Catatan: Tambahkan screenshot hasil build ke dalam folder `screenshots/` agar tampil di atas.*
+
+## 🛠 Teknologi
+
+- Flutter
+- Dart
+- HTTP Package
+- Digimon API
+
+## 📦 Cara Menjalankan
+
+```bash
+git clone https://github.com/mlnabn/Latihan-Flutter-digimon-list.git
+cd Latihan-Flutter-digimon-list
+flutter pub get
+flutter run
